@@ -11,7 +11,7 @@ for i in temp.????-??.txt ; do
 	rm "${i}" ; 
 done ; 
 
-j=-1;
+j=0;
 printf "BEGIN:VCALENDAR\n" > "temp.ics" ; 
 printf "VERSION:2.0\n" >> "temp.ics" ; 
 printf "PRODID:-//Defcon 516//NONSGML v1.0//EN\n" >> "temp.ics" ; 
